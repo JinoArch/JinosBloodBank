@@ -10,6 +10,17 @@ h2{font-size: 0.9rem;line-height: 1.6;font-weight: 400; word-spacing: 4px;}
     color: #a90f0f !important;
 }
 
+/* preloader */
+ #loader{
+     position: fixed;
+     width: 100%;
+     height: 100vh;
+     background: #fff url("bloodcells.gif") no-repeat center;
+     z-index: 99999;
+ }
+/* preloader */
+
+
 /* main contents starts here ......separate styles for each */
 /* **********************header section ends here************************************** */
 .header{
