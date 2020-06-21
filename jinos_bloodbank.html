@@ -35,7 +35,7 @@
                               <a class="nav-link" href="#">Donor Details</a>
                         </li>
                         <li class="nav-item active">
-                              <a class="nav-link" href="#">Registration</a>
+                              <a class="nav-link" href="#" id="pop">Registration</a>
                         </li>
                         <li class="nav-item active">
                               <a class="nav-link" href="#servicediv">AboutUs</a>
@@ -51,9 +51,20 @@
       <div class="center-h1">
             <h1 class="font-weight-bold">BRING  A  LIFE  BACK  TO  POWER</h1>
                   <p>DONORS ARE HERE, <span class="where">WHERE ARE YOU?</span></p>
-                        <div class="center-h1-button">
-                              <a href='#'>AboutUs</a>
-                              <a href='#'>Contact</a>
+                        <div class="container center-h1-button">
+			      <a href='#' class="button" id="popup-button">Register?</a>
+                              <a href='#'>Search Donor?</a>
+                        </div>
+			                 <div class="popup">
+                          <div class="popup-content">
+                            <img src="close.png" class="popup-close" id="close" alt="close">
+                            <img src="jino.jpeg" class="popup-image img-fluidi img-thumbnail" alt="user">
+                            <input class="pop" type="text" name="" placeholder="username" required autocomplete="off">
+                            <input class="pop" type="email" name="" placeholder="email address" required autocomplete="off">
+                            <input class="pop" type="text" name="" placeholder="blood group" required autocomplete="off">
+                            <input class="pop" type="text" name="" placeholder="mobile number" required autocomplete="off">
+                            <div class="text-center submit"><a href="#" class="button">Submit</a></div>       
+                          </div>
                         </div>
       </div>
 </section>
