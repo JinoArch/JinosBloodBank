@@ -5,6 +5,18 @@ function mypreloader(){
 }
 
 
+//popup window and closing window
+document.getElementById("popup-button").addEventListener("click", function(){
+	document.querySelector(".popup").style.display= "flex";
+})
+document.getElementById("pop").addEventListener("click", function(){
+  document.querySelector(".popup").style.display= "flex";
+})
+
+
+document.getElementById("close").addEventListener("click", function(){
+	document.querySelector(".popup").style.display= "none";
+})
 
 //Get the button
 var mybutton = document.getElementById("myBtn");
